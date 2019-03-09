@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<img src="http://localhost:5000/viz">
+
+<script>
+    function submitForm() {
+        const url = "http://localhost:5000/select";
+        fetch(url, {
+            method: "POST",
+            body: new FormData(document.getElementById("inputform")),
+            // -- or --
+            // body : JSON.stringify({
+            // user : document.getElementById('user').value,
+            // ...
+            // })
+        }).then(
+            response => response.text() // .json(), etc.
+            // same as function(response) {return response.text();}
+        ).then(
+            html => console.log(html)
+        );
+    }
+</script>
+
+
+<form id="inputform" action="http://localhost:5000/" method="post">
+    <label><input type='checkbox' name='05-PT-28201-01_B2_Manifold_Pressure (Psi)'> 05-PT-28201-01_B2_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-28201-03_B2_Manifold_Pressure (Psi)'> 05-PT-28201-03_B2_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-29101-02_C1_Manifold_Pressure (Psi)'> 05-PT-29101-02_C1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-29101-03_C1_Manifold_Pressure (Psi)'> 05-PT-29101-03_C1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-33101-02_G1_Manifold_Pressure (Psi)'> 05-PT-33101-02_G1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-33101-03_G1_Manifold_Pressure (Psi)'> 05-PT-33101-03_G1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-34101-01_H1_Manifold_Pressure (Psi)'> 05-PT-34101-01_H1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-PT-34101-04_H1_Manifold_Pressure (Psi)'> 05-PT-34101-04_H1_Manifold_Pressure
+        (Psi)</label><br>
+    <label><input type='checkbox' name='05-TT-28201-01_B2_Manifold_Temperature (DegF)'>
+        05-TT-28201-01_B2_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-28201-03_B2_Manifold_Temperature (DegF)'>
+        05-TT-28201-03_B2_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-29101-02_C1_Manifold_Temperature (DegF)'>
+        05-TT-29101-02_C1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-29101-03_C1_Manifold_Temperature (DegF)'>
+        05-TT-29101-03_C1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-33101-02_G1_Manifold_Temperature (DegF)'>
+        05-TT-33101-02_G1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-33101-03_G1_Manifold_Temperature (DegF)'>
+        05-TT-33101-03_G1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-34101-01_H1_Manifold_Temperature (DegF)'>
+        05-TT-34101-01_H1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='05-TT-34101-04_H1_Manifold_Temperature (DegF)'>
+        05-TT-34101-04_H1_Manifold_Temperature (DegF)</label><br>
+    <label><input type='checkbox' name='20-HX-10003.Status_Flowline_From_Drill_Center_C ( )'>
+        20-HX-10003.Status_Flowline_From_Drill_Center_C ( )</label><br>
+    <label><input type='checkbox' name='20-HX-10004.Status_Flowline_From_Drill_Center_C ( )'>
+        20-HX-10004.Status_Flowline_From_Drill_Center_C ( )</label><br>
+    <label><input type='checkbox' name='20-HX-20003.Status_Flowline_From_Drill_Centers_B&G ( )'>
+        20-HX-20003.Status_Flowline_From_Drill_Centers_B&G ( )</label><br>
+    <label><input type='checkbox' name='20-HX-20004.Status_Flowline_From_Drill_Centers_B&G ( )'>
+        20-HX-20004.Status_Flowline_From_Drill_Centers_B&G ( )</label><br>
+    <label><input type='checkbox' name='20-PIC-10114.PV_P2_Subsea_Flowline_Eq_Choke_%_Open (PSIG)'>
+        20-PIC-10114.PV_P2_Subsea_Flowline_Eq_Choke_%_Open (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PIC-10214.PV_P1_Subsea_Flowline_Eq_Choke_%_Open (PSIG)'>
+        20-PIC-10214.PV_P1_Subsea_Flowline_Eq_Choke_%_Open (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-10007-01.PV_Flowline_From_Drill_Center_C (PSIG)'>
+        20-PT-10007-01.PV_Flowline_From_Drill_Center_C (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-10008-01.PV_Flowline_From_Drill_Center_C (PSIG)'>
+        20-PT-10008-01.PV_Flowline_From_Drill_Center_C (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-20007-01.PV_Flowline_From_Drill_Centers_B&G (PSIG)'>
+        20-PT-20007-01.PV_Flowline_From_Drill_Centers_B&G (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-20008-01.PV_Flowline_From_Drill_Centers_B&G (PSIG)'>
+        20-PT-20008-01.PV_Flowline_From_Drill_Centers_B&G (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-20114.PV_Subsea_Flowline_Launcher (PSIG)'>
+        20-PT-20114.PV_Subsea_Flowline_Launcher (PSIG)</label><br>
+    <label><input type='checkbox' name='20-PT-20214.PV_Subsea_Flowline_Receiver (PSIG)'>
+        20-PT-20214.PV_Subsea_Flowline_Receiver (PSIG)</label><br>
+    <label><input type='checkbox' name='20-TT-10105.PV_Subsea_Flowline_To_Train_1 (Deg.F)'>
+        20-TT-10105.PV_Subsea_Flowline_To_Train_1 (Deg.F)</label><br>
+    <label><input type='checkbox' name='20-TT-10205.PV_Subsea_Flowline_Test_Sep (Deg.F)'>
+        20-TT-10205.PV_Subsea_Flowline_Test_Sep (Deg.F)</label><br>
+    <label><input type='checkbox' name='20-TT-20105.PV_Train_2_Subsea_Flowline_Launcher (Deg.F)'>
+        20-TT-20105.PV_Train_2_Subsea_Flowline_Launcher (Deg.F)</label><br>
+    <label><input type='checkbox' name='20-TT-20205.PV_Train_2_Subsea_Flowline_Receiver (Deg.F)'>
+        20-TT-20205.PV_Train_2_Subsea_Flowline_Receiver (Deg.F)</label><br>
+    <label><input type='checkbox' name='20-ZT-10104.PV_To/From_Subsea_Flowline (%)'>
+        20-ZT-10104.PV_To/From_Subsea_Flowline (%)</label><br>
+    <label><input type='checkbox' name='20-ZT-10204.PV_To/From_Subsea_Flowline (%)'>
+        20-ZT-10204.PV_To/From_Subsea_Flowline (%)</label><br>
+    <label><input type='checkbox' name='20-ZT-20104.PV_Train_2_Subsea_Flowline_Launcher (%)'>
+        20-ZT-20104.PV_Train_2_Subsea_Flowline_Launcher (%)</label><br>
+    <label><input type='checkbox' name='20-ZT-20204.PV_Train_2_Subsea_Flowline_Receiver (%)'>
+        20-ZT-20204.PV_Train_2_Subsea_Flowline_Receiver (%)</label><br>
+    <label><input type='checkbox' name='21-FQI-10518-01.NetRate.PV (BPD)'> 21-FQI-10518-01.NetRate.PV (BPD)</label><br>
+    <label><input type='checkbox' name='21-FT-40518-03_Density_(Coriolis) (g/cc)'> 21-FT-40518-03_Density_(Coriolis)
+        (g/cc)</label><br>
+    <label><input type='checkbox' name='21-FT-40518-03_Gross_Volume_Flow_Rate_(Coriolis) (bbl/d)'>
+        21-FT-40518-03_Gross_Volume_Flow_Rate_(Coriolis) (bbl/d)</label><br>
+    <label><input type='checkbox' name='21-HY-10535.OUT_Flowline_Lchr/Rcvr_To_Prod_Sep (%)'>
+        21-HY-10535.OUT_Flowline_Lchr/Rcvr_To_Prod_Sep (%)</label><br>
+    <label><input type='checkbox' name='21-HY-40534.OUT_Test_Separator_Inlet (%)'> 21-HY-40534.OUT_Test_Separator_Inlet
+        (%)</label><br>
+    <label><input type='checkbox' name='21-LIC-10516.SP_Prod_Sep_Oil_Out_To_2nd_Stg_Sep (%)'>
+        21-LIC-10516.SP_Prod_Sep_Oil_Out_To_2nd_Stg_Sep (%)</label><br>
+    <label><input type='checkbox' name='21-LIC-10620.CV_2nd_Stg_Hydrocyclone_Wtr_Out (%)'>
+        21-LIC-10620.CV_2nd_Stg_Hydrocyclone_Wtr_Out (%)</label><br>
+    <label><input type='checkbox' name='21-LIC-10620.SP_2nd_Stg_Hydrocyclone_Wtr_Out (%)'>
+        21-LIC-10620.SP_2nd_Stg_Hydrocyclone_Wtr_Out (%)</label><br>
+    <label><input type='checkbox' name='21-LIC-40516.SP_Test_Allocation_Sep_Interface (%)'>
+        21-LIC-40516.SP_Test_Allocation_Sep_Interface (%)</label><br>
+    <label><input type='checkbox' name='21-LT-10515.PV_Prod_Sep_Oil_Interface_Level (%)'>
+        21-LT-10515.PV_Prod_Sep_Oil_Interface_Level (%)</label><br>
+    <label><input type='checkbox' name='21-LT-10516.PV_Prod_Sep_Oil_Interface_Level (%)'>
+        21-LT-10516.PV_Prod_Sep_Oil_Interface_Level (%)</label><br>
+    <label><input type='checkbox' name='21-LT-10618.PV_Prod_Sep_2nd_Stg_Interface (%)'>
+        21-LT-10618.PV_Prod_Sep_2nd_Stg_Interface (%)</label><br>
+    <label><input type='checkbox' name='21-LT-10620.PV_Prod_Sep_2nd_Stg_Interface (%)'>
+        21-LT-10620.PV_Prod_Sep_2nd_Stg_Interface (%)</label><br>
+    <label><input type='checkbox' name='21-LT-40515.PV_Test_Allocation_Sep_Interface (%)'>
+        21-LT-40515.PV_Test_Allocation_Sep_Interface (%)</label><br>
+    <label><input type='checkbox' name='21-LT-40516.PV_Test_Allocation_Sep_Interface (%)'>
+        21-LT-40516.PV_Test_Allocation_Sep_Interface (%)</label><br>
+    <label><input type='checkbox' name='21-LY-10516.OUT_Prod_Sep_Oil_Out_To_2nd_Stg_Sep (%)'>
+        21-LY-10516.OUT_Prod_Sep_Oil_Out_To_2nd_Stg_Sep (%)</label><br>
+    <label><input type='checkbox' name='21-LY-10616.OUT_Prod_Sep_2nd_Stg_Fluid_To_Exch (%)'>
+        21-LY-10616.OUT_Prod_Sep_2nd_Stg_Fluid_To_Exch (%)</label><br>
+    <label><input type='checkbox' name='21-LY-10620.OUT_2nd_Stg_Hydrocyclone_Wtr_Out (%)'>
+        21-LY-10620.OUT_2nd_Stg_Hydrocyclone_Wtr_Out (%)</label><br>
+    <label><input type='checkbox' name='21-LY-11516.OUT_Train_1_Treater_Wtr_Interface_Level (%)'>
+        21-LY-11516.OUT_Train_1_Treater_Wtr_Interface_Level (%)</label><br>
+    <label><input type='checkbox' name='21-LY-40516.OUT (%)'> 21-LY-40516.OUT (%)</label><br>
+    <label><input type='checkbox' name='21-PT-10505.PV_Production_Separator (PSIG)'> 21-PT-10505.PV_Production_Separator
+        (PSIG)</label><br>
+    <label><input type='checkbox' name='21-PT-10605.PV_Prod_Sep_2nd_Stg (PSIG)'> 21-PT-10605.PV_Prod_Sep_2nd_Stg (PSIG)</label><br>
+    <label><input type='checkbox' name='21-PT-40505.PV_Test_Allocation_Separator (PSIG)'>
+        21-PT-40505.PV_Test_Allocation_Separator (PSIG)</label><br>
+    <label><input type='checkbox' name='21-TT-10508.PV_Prod_Sep_Gas_Out_To_Flash_Clr (Deg.F)'>
+        21-TT-10508.PV_Prod_Sep_Gas_Out_To_Flash_Clr (Deg.F)</label><br>
+    <label><input type='checkbox' name='21-TT-10608.PV_Prod_Sep_2nd_Stg_Gas_Out (Deg.F)'>
+        21-TT-10608.PV_Prod_Sep_2nd_Stg_Gas_Out (Deg.F)</label><br>
+    <label><input type='checkbox' name='21-TT-11616.PV_Crude_Oil_Trim_Heat_Outlet (Deg.F)'>
+        21-TT-11616.PV_Crude_Oil_Trim_Heat_Outlet (Deg.F)</label><br>
+    <label><input type='checkbox' name='30-FT-19107-01.PV_2nd_Stg_Hydrocyclone_Inlet (BPD)'>
+        30-FT-19107-01.PV_2nd_Stg_Hydrocyclone_Inlet (BPD)</label><br>
+    <label><input type='checkbox' name='30-FT-19108.PV ( )'> 30-FT-19108.PV ( )</label><br>
+    <label><input type='checkbox' name='30-FT-29108.PV (BPD)'> 30-FT-29108.PV (BPD)</label><br>
+    <label><input type='checkbox' name='30-FT-69521-01.PV_Flotation_Cell_Prod_Wtr_To_Ovbrd (BPD)'>
+        30-FT-69521-01.PV_Flotation_Cell_Prod_Wtr_To_Ovbrd (BPD)</label><br>
+    <label><input type='checkbox' name='30-LIC-69516.CV_Flotation_Cell_Out_To_Drn (%)'>
+        30-LIC-69516.CV_Flotation_Cell_Out_To_Drn (%)</label><br>
+    <label><input type='checkbox' name='30-LIC-69518.CV_Flotation_Cell_Prod_Wtr_To_Ovbrd (%)'>
+        30-LIC-69518.CV_Flotation_Cell_Prod_Wtr_To_Ovbrd (%)</label><br>
+    <label><input type='checkbox' name='30-LT-69514.PV_Flotation_Cell (%)'> 30-LT-69514.PV_Flotation_Cell
+        (%)</label><br>
+    <label><input type='checkbox' name='30-LT-69515.PV_Flotation_Cell (%)'> 30-LT-69515.PV_Flotation_Cell
+        (%)</label><br>
+    <label><input type='checkbox' name='30-LT-69516.PV_Flotation_Cell (%)'> 30-LT-69516.PV_Flotation_Cell
+        (%)</label><br>
+    <label><input type='checkbox' name='30-LT-69518.PV_Flotation_Cell (%)'> 30-LT-69518.PV_Flotation_Cell
+        (%)</label><br>
+    <label><input type='checkbox' name='30-LY-69518.OUT_Flotation_Cell_Prod_Wtr_To_Ovbrd (%)'>
+        30-LY-69518.OUT_Flotation_Cell_Prod_Wtr_To_Ovbrd (%)</label><br>
+    <label><input type='checkbox' name='30-PDIC-19104.SP_2nd_Stg_Prod_Hydrocyclone_Out ( )'>
+        30-PDIC-19104.SP_2nd_Stg_Prod_Hydrocyclone_Out ( )</label><br>
+    <label><input type='checkbox' name='30-PDT-19104-01.PV_2nd_Stg_Hydrocyclone_Out_To_Drn (PSID)'>
+        30-PDT-19104-01.PV_2nd_Stg_Hydrocyclone_Out_To_Drn (PSID)</label><br>
+    <label><input type='checkbox' name='30-PDT-19104-02.PV_2nd_Stg_Hydrocyclone_To_Skimmer (PSID)'>
+        30-PDT-19104-02.PV_2nd_Stg_Hydrocyclone_To_Skimmer (PSID)</label><br>
+    <label><input type='checkbox' name='30-PDT-19104.PV_2nd_Stg_Hydrocyclone_Out_To_Drn_Diff_Press_Ratio (PSID)'>
+        30-PDT-19104.PV_2nd_Stg_Hydrocyclone_Out_To_Drn_Diff_Press_Ratio (PSID)</label><br>
+    <label><input type='checkbox' name='30-PDY-19104.OUT_2nd_Stg_Prod_Hydrocyclone_Out (%)'>
+        30-PDY-19104.OUT_2nd_Stg_Prod_Hydrocyclone_Out (%)</label><br>
+    <label><input type='checkbox' name='30-PT-69503.PV_Flotation_Cell (PSIG)'> 30-PT-69503.PV_Flotation_Cell
+        (PSIG)</label><br>
+    <label><input type='checkbox' name='30-PT-69512.PV (psig)'> 30-PT-69512.PV (psig)</label><br>
+    <label><input type='checkbox' name='30-PY-69503.OUT_Flotation_Cell_Out_To_LP_Flare (%)'>
+        30-PY-69503.OUT_Flotation_Cell_Out_To_LP_Flare (%)</label><br>
+    <label><input type='checkbox' name='37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG'>
+        37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG</label><br>
+    <input type="button" onclick="submitForm()">
+</form>
+</body>
+</html>
