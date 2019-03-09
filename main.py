@@ -1,12 +1,13 @@
-from server.viz_server import VizServer
+# from threading import Thread
+# from server.viz_server import start
+#
+# Thread(target=start).start()
 
-VizServer()
+
+# from bhp_sep.dataset_processor import DataProcessor
+# DataProcessor.merge_data_parts()
 
 
-
-# from bhp_sep import dataset_processor as dp
-# import re
-# # dataset_processor.merge_data_parts()
 # from bhp_sep.dataset_processor import DataProcessor
 #
 # flow_rate = [dp.COL_21_FQI_10518_01_NetRate_PV,
@@ -18,21 +19,11 @@ VizServer()
 # temperature = [heading for heading in dp.headings if 'DegF' in heading]
 #
 #
-# def get_headings_by_text(text=None):
-#     return [heading for heading in dp.headings if text in heading]
-#
-#
-# HD_Temperature = '(DegF)'
-# HD_PSIG = 'PSIG'
-# HD_PSID = 'PSID'
-# HD_PERCENTAGE = '(%)'
-#
-# DP = DataProcessor()
-#
-# # plt = DP.visualizer(*get_headings_by_text(HD_Temperature))
-# #
-# # plt.savefig('temp.png')
-# # plt.show()
+
+
+
+
+
 # #
 #
 # plt = DP.visualizer(*get_headings_by_text(HD_Temperature))

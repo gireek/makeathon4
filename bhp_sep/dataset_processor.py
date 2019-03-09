@@ -1,3 +1,6 @@
+from py_data.data import Data
+Data().create_dir('raw')
+
 import pandas as pd
 from matplotlib import ticker
 from matplotlib.ticker import MultipleLocator, FormatStrFormatter, FuncFormatter
@@ -204,7 +207,7 @@ class DataProcessor:
         part_2 = part_2.dropna(axis=1)
         merged = part_1.merge(part_2, on='TimeStamp', how='inner')
         merged['TimeStamp'] = pd.to_datetime(merged['TimeStamp'])
-        merged.to_csv(raw_path.get() + "Hackathon_DataSet_OctApr.txt", index=False, sep='\t')
+        merged.to_csv(raw_path.get() + "/Hackathon_DataSet_OctApr.txt", index=False, sep='\t')
 
     def add_days_to_timestamp(timestamp, days=1, format='%Y-%m-%d %H:%M:%S'):
         timestamp_dt = datetime.strptime(timestamp, format)

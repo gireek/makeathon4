@@ -7,30 +7,11 @@
 <body>
 
 
-<img src="http://localhost:5000/viz">
-
-<script>
-    function submitForm() {
-        const url = "http://localhost:5000/select";
-        fetch(url, {
-            method: "POST",
-            body: new FormData(document.getElementById("inputform")),
-            // -- or --
-            // body : JSON.stringify({
-            // user : document.getElementById('user').value,
-            // ...
-            // })
-        }).then(
-            response => response.text() // .json(), etc.
-            // same as function(response) {return response.text();}
-        ).then(
-            html => console.log(html)
-        );
-    }
-</script>
+<!--<img src="http://localhost:5000/viz">-->
 
 
-<form id="inputform" action="http://localhost:5000/" method="post">
+
+<form id="inputform" action="http://localhost:5000/" method="get">
     <label><input type='checkbox' name='05-PT-28201-01_B2_Manifold_Pressure (Psi)'> 05-PT-28201-01_B2_Manifold_Pressure
         (Psi)</label><br>
     <label><input type='checkbox' name='05-PT-28201-03_B2_Manifold_Pressure (Psi)'> 05-PT-28201-03_B2_Manifold_Pressure
@@ -189,7 +170,7 @@
         30-PY-69503.OUT_Flotation_Cell_Out_To_LP_Flare (%)</label><br>
     <label><input type='checkbox' name='37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG'>
         37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG</label><br>
-    <input type="button" onclick="submitForm()">
+    <input type="submit" value="submit">
 </form>
 </body>
 </html>
