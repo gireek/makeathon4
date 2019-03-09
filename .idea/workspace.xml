@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e306d5b-c517-4b1a-b5fe-c10a910d58a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/local_viz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server_viz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bhp-sep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bhp-sep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bhp_sep/dataset_processor.py" beforeDir="false" afterPath="$PROJECT_DIR$/bhp_sep/dataset_processor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bhp_sep/sep_visual.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bhp_sep/temp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bhp_sep/temp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/proj_data" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/viz_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/viz_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,64 +14,67 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/bhp_sep$main.coverage" NAME="main Coverage Results" MODIFIED="1552117064311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bhp_sep" />
+    <SUITE FILE_PATH="coverage/bhp_sep$local_viz.coverage" NAME="local_viz Coverage Results" MODIFIED="1552138198073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bhp_sep$dataset_processor.coverage" NAME="dataset_processor Coverage Results" MODIFIED="1552028252535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bhp_sep" />
+    <SUITE FILE_PATH="coverage/bhp_sep$server_viz.coverage" NAME="server_viz Coverage Results" MODIFIED="1552138560230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/bhp_sep$sep_visual.coverage" NAME="sep_visual Coverage Results" MODIFIED="1552037342152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bhp_sep" />
     <SUITE FILE_PATH="coverage/bhp_sep$connection.coverage" NAME="connection Coverage Results" MODIFIED="1552106076010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+    <SUITE FILE_PATH="coverage/bhp_sep$viz_server.coverage" NAME="viz_server Coverage Results" MODIFIED="1552137922387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/bhp_sep$utils.coverage" NAME="utils Coverage Results" MODIFIED="1552093583259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/bhp_sep$models.coverage" NAME="models Coverage Results" MODIFIED="1552093686492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="317017743">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="IPNB" value="5" />
+          <entry key="Image" value="10" />
+          <entry key="JSON" value="1" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="163" />
+          <entry key="JSON" value="75" />
+          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="Python" value="6113" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="73" />
-              <folding>
-                <marker date="1552137259652" expanded="true" signature="106:192" ph="..." />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bhp_sep/temp.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local_viz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server_viz.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bhp_sep/dataset_processor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3474">
-              <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/viz_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -91,10 +83,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/makeathon4/lib/python3.6/site-packages/py_flask_movie/flask_movie.py">
+        <entry file="file://$PROJECT_DIR$/local_viz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bhp_sep/viz.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bhp_sep/dataset_processor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server_viz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -103,10 +143,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/templates/index.html">
+        <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/py_flask_movie/flask_movie.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -116,8 +156,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -156,22 +196,19 @@
       <list>
         <option value="$PROJECT_DIR$/bhp_sep/test.py" />
         <option value="$PROJECT_DIR$/bhp_sep/main.py" />
+        <option value="$PROJECT_DIR$/bhp_sep/sep_visual.py" />
         <option value="$PROJECT_DIR$/config/conn_details.json" />
         <option value="$PROJECT_DIR$/config/db.config" />
         <option value="$PROJECT_DIR$/config/utils.py" />
         <option value="$PROJECT_DIR$/db/connection.py" />
         <option value="$PROJECT_DIR$/db/models.py" />
         <option value="$PROJECT_DIR$/temp.py" />
+        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/server/index.html" />
-        <option value="$PROJECT_DIR$/bhp_sep/viz.ipynb" />
-        <option value="$PROJECT_DIR$/bhp_sep/sep_visual.py" />
-        <option value="$PROJECT_DIR$/bhp_sep/init.py" />
         <option value="$PROJECT_DIR$/bhp_sep/dataset_processor.py" />
+        <option value="$PROJECT_DIR$/bhp_sep/viz.ipynb" />
         <option value="$PROJECT_DIR$/server/templates/index.html" />
         <option value="$PROJECT_DIR$/server/viz_server.py" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/server_viz.py" />
-        <option value="$PROJECT_DIR$/local_viz.py" />
       </list>
     </option>
   </component>
@@ -182,62 +219,38 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="544" />
-    <option name="y" value="33" />
-    <option name="width" value="941" />
-    <option name="height" value="1047" />
+    <option name="x" value="977" />
+    <option name="y" value="25" />
+    <option name="width" value="943" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
+              <item name="bhp-sep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhp-sep" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
+              <item name="bhp-sep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhp-sep" type="462c0819:PsiDirectoryNode" />
               <item name="bhp_sep" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_data" type="462c0819:PsiDirectoryNode" />
-              <item name="bhp_sep" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
-              <item name="proj_data" type="462c0819:PsiDirectoryNode" />
-              <item name="bhp_sep" type="462c0819:PsiDirectoryNode" />
-              <item name="raw" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
+              <item name="bhp-sep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bhp-sep" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="makeathon4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="makeathon4" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,16 +267,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/proj_data/bhp_sep/raw" />
-      <recent name="$PROJECT_DIR$/bhp_sep" />
-      <recent name="$PROJECT_DIR$/proj_data" />
-      <recent name="$PROJECT_DIR$/proj_data/bhp_sep" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/server/templates" />
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bhp_sep" />
+      <recent name="$PROJECT_DIR$/proj_data/bhp_sep/raw" />
+      <recent name="$PROJECT_DIR$/proj_data" />
+      <recent name="$PROJECT_DIR$/proj_data/bhp_sep" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -293,6 +306,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db/connection.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="local_viz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="bhp-sep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/local_viz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,29 +392,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_viz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="bhp-sep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/server_viz.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,17 +405,17 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.connection" />
-      <item itemvalue="Python.utils" />
       <item itemvalue="Python.models" />
+      <item itemvalue="Python.local_viz" />
       <item itemvalue="Python.server_viz" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.server_viz" />
+        <item itemvalue="Python.local_viz" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.connection" />
         <item itemvalue="Python.models" />
-        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -419,30 +433,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="35" y="25" width="1885" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2736727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19358347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30736393" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15688367" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30744338" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3491892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32977587" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32972974" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32952693" />
-      <window_info anchor="right" x="35" y="57" width="1885" height="1023" id="SciView" order="4" type="WINDOWED" weight="0.28113106" />
+      <window_info anchor="right" x="35" y="57" width="1885" height="1023" id="SciView" order="4" visible="true" weight="0.28113106" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
     <layout-to-restore>
@@ -473,22 +487,68 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bhp_sep/test.py" />
     <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/merged.csv" />
     <entry file="file://$PROJECT_DIR$/bhp_sep/Hackathon_DataSet_OctApr_Combined.txt" />
-    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/path.py" />
+    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/path.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/path.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr_Part2.txt" />
-    <entry file="file://$PROJECT_DIR$/proj_data/path.py" />
+    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr_Part2.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="79" selection-start-column="79" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_data/path.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet.txt" />
-    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr.txt" />
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/datetime.py" />
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/ext/declarative/__init__.py" />
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/sql/schema.py" />
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/sql/sqltypes.py" />
+    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr_Part1.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="1860" selection-start-column="1860" selection-end-column="1860" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="4000" selection-end-column="4000" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="1741" column="18" selection-start-line="1741" selection-start-column="18" selection-end-line="1741" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/ext/declarative/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/sql/schema.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1226">
+          <caret line="1336" lean-forward="true" selection-start-line="1336" selection-end-line="1336" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/sqlalchemy/sql/sqltypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="818" column="6" selection-start-line="818" selection-start-column="6" selection-end-line="818" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/db.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -500,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -510,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,13 +580,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/matplotlib/pyplot.py" />
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3107">
+          <caret line="2155" column="21" selection-start-line="2155" selection-start-column="18" selection-end-line="2155" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bhp_sep/sum.png" />
-    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/py_flask_movie/flask_movie.py" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bhp_sep/temp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="135">
           <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -543,74 +619,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proj_data/bhp_sep/raw/Hackathon_DataSet_OctApr_Part1.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bhp_sep/init.py" />
-    <entry file="file://$PROJECT_DIR$/bhp_sep/temp.jpg" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/makeathon4/lib/python3.6/site-packages/py_flask_movie/flask_movie.py">
+    <entry file="file:///opt/miniconda3/envs/secureit/lib/python3.6/site-packages/py_flask_movie/flask_movie.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/bhp_sep/sep_visual.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bhp_sep/temp.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bhp_sep/dataset_processor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3474">
-          <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/viz_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server_viz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="73" />
-          <folding>
-            <marker date="1552137259652" expanded="true" signature="106:192" ph="..." />
-          </folding>
+        <state relative-caret-position="453">
+          <caret line="180" selection-start-line="180" selection-end-line="180" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/local_viz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bhp_sep/dataset_processor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="85" selection-start-line="13" selection-start-column="85" selection-end-line="13" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server_viz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/viz_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

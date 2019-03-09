@@ -23,14 +23,14 @@ def main():
     if data_columns:
         plt = dp.visualizer(*data_columns)
         plt.tight_layout()
-        plt.savefig('temp.jpg')
+        plt.savefig('/home/developer/PycharmProjects/bhp-sep/server/temp.jpg')
     return render_template('index.html')
 
 def start():
     fm.start('localhost', 5000)
     while True:
         pipe.push_wait()
-        pipe.push(cv2.imread('temp.jpg'))
+        pipe.push(cv2.imread('/home/developer/PycharmProjects/bhp-sep/server/temp.jpg'))
 
 
 
