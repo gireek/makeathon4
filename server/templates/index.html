@@ -11,7 +11,6 @@
 <img src="http://localhost:5000/viz" width="100%">
 
 
-
 <form id="inputform" action="http://localhost:5000/" method="post">
     <label><input type='checkbox' name='05-PT-28201-01_B2_Manifold_Pressure (Psi)'> 05-PT-28201-01_B2_Manifold_Pressure
         (Psi)</label><br>
@@ -169,26 +168,37 @@
     <label><input type='checkbox' name='30-PT-69512.PV (psig)'> 30-PT-69512.PV (psig)</label><br>
     <label><input type='checkbox' name='30-PY-69503.OUT_Flotation_Cell_Out_To_LP_Flare (%)'>
         30-PY-69503.OUT_Flotation_Cell_Out_To_LP_Flare (%)</label><br>
-    <label><input type='checkbox' name='37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG'>
+    <label><input type='checkbox' name='37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG)'>
         37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG</label><br>
-    <input type="submit" value="submit">
+{#    <input type="submit" value="submit">#}
 </form>
 
 <script type='text/javascript'>
-$("#inputform").submit(function(event){
-	event.preventDefault(); //prevent default action
-	var post_url = $(this).attr("action"); //get form action url
-	var request_method = $(this).attr("method"); //get form GET/POST method
-	var form_data = $(this).serialize(); //Encode form elements for submission
 
-	$.ajax({
-		url : post_url,
-		type: request_method,
-		data : form_data
-	}).done(function(response){
-		console.log(response);
-	});
-});
+    function submit_form() {
+        var form = $("#inputform");
+        var post_url = form.attr("action");
+        var request_method = form.attr("method");
+        var form_data = form.serialize();
+
+        $.ajax({
+            url: post_url,
+            type: request_method,
+            data: form_data
+        }).done(function (response) {
+            console.log(response);
+        });
+    }
+
+    $("#inputform").submit(function (event) {
+        event.preventDefault();
+        submit_form();
+    });
+
+    $(":checkbox").on("click", function () {
+        submit_form();
+    });
+
 </script>
 </body>
 </html>
