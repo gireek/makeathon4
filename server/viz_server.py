@@ -13,9 +13,9 @@ fm = FlaskMovie(app=app)
 pipe = Pipe(limit=None)
 fm.create('viz',pipe)
 
-@app.route('/', methods=['GET'])
+@app.route('/', methods=['GET', 'POST'])
 def main():
-    args = request.args
+    args = request.form
     data_columns = []
     for _ in args:
         data_columns.append(_)
@@ -27,7 +27,7 @@ def main():
     return render_template('index.html')
 
 def start():
-    fm.start('localhost', 5000)
+    fm.start("0.0.0.0", 5000)
     while True:
         pipe.push_wait()
         pipe.push(cv2.imread('/home/developer/PycharmProjects/bhp-sep/server/temp.jpg'))

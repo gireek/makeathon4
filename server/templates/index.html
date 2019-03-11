@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
 
 
-<!--<img src="http://localhost:5000/viz">-->
+<img src="http://localhost:5000/viz" width="100%">
 
 
 
-<form id="inputform" action="http://localhost:5000/" method="get">
+<form id="inputform" action="http://localhost:5000/" method="post">
     <label><input type='checkbox' name='05-PT-28201-01_B2_Manifold_Pressure (Psi)'> 05-PT-28201-01_B2_Manifold_Pressure
         (Psi)</label><br>
     <label><input type='checkbox' name='05-PT-28201-03_B2_Manifold_Pressure (Psi)'> 05-PT-28201-03_B2_Manifold_Pressure
@@ -172,5 +173,22 @@
         37-PT-62301.PV_Closed_Smp_Tk_Pmp_Disch_To_Sep (PSIG</label><br>
     <input type="submit" value="submit">
 </form>
+
+<script type='text/javascript'>
+$("#inputform").submit(function(event){
+	event.preventDefault(); //prevent default action
+	var post_url = $(this).attr("action"); //get form action url
+	var request_method = $(this).attr("method"); //get form GET/POST method
+	var form_data = $(this).serialize(); //Encode form elements for submission
+
+	$.ajax({
+		url : post_url,
+		type: request_method,
+		data : form_data
+	}).done(function(response){
+		console.log(response);
+	});
+});
+</script>
 </body>
 </html>

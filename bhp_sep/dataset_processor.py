@@ -1,4 +1,5 @@
 from py_data.data import Data
+
 Data().create_dir('raw')
 
 import pandas as pd
@@ -218,13 +219,18 @@ class DataProcessor:
         cols = list(cols)
         df = self.df.copy()
         df = df[['TimeStamp'] + list(cols)]
-
+        replacement = {'Closed': 0, 'Open': 1, 'FAIL': 2}
         window = 24 * 120 + 1
         for col in list(cols):
             try:
                 df[col] = df[col].rolling(window).mean()
             except:
-                pass
+                try:
+                    df[col] = [replacement[item] for item in df[col]]
+                except:
+                    pass
+
+
 
         # df = df.dropna()
 
